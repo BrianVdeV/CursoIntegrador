@@ -1,0 +1,4 @@
+1|zarza|gogo|23.0|12|barranzio|gatito
+2|retet|treter|343.0|234|barranzio|gatito
+1|kerituky|keritijyu|23.0|12|keke|peru
+2|bebe|keke|12.0|12|barranzio|gatito
