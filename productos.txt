@@ -1,4 +1,12 @@
-1|zarza|gogo|23.0|12|barranzio|gatito
-2|retet|treter|343.0|234|barranzio|gatito
-1|kerituky|keritijyu|23.0|12|keke|peru
-2|bebe|keke|12.0|12|barranzio|gatito
+1|Galletitas|P01|40.0|100|Pro Plan|Gato
+2|Cereal|P02|84.0|100|Pro Plan|Gato
+3|1234|P04|100.0|10|Pro Plan|Gato
+4|Galletitas|P07|40.0|100|Pro Plan|Perro
+5|Galletitas|P09|123.0|90|Pro Plan|Gato
+6|Galletitas|P10|100.0|100|Ricocan|Perro
+7|Prueba|P09|3000.0|30|Ricocan|Gato
+7|Cucha|P09|300.0|30|Zuko|Gato
+8|Galletas|P11|12.0|123|Pro Plan|Gato
+9|Galletas|P12|40.0|40|Pro Plan|Gato
+10|Shampoo|P99|100.0|300|Pro Plan|Gato
+11|Pine|P100|300.0|300|Canbo|Perro

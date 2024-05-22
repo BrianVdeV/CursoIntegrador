@@ -1,3 +1,5 @@
 1|Empl-22052401|ber|ber|Femenino|123|123|Inactivo|berru
 1|Empl-22052401|jjj|jjj|Femenino|111|111|Activo|berru
 2|Empl-22052403|mmmm|mmmm|Femenino|11111111|1111111|Activo|berru
+3|Empl-22052407|Jorge|Velez|Masculino|49033980|1234|Activo|berru
+4|Empl-22052409|Brian|Arista|Masculino|4903323|2313212|Activo|berru

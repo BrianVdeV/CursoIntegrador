@@ -1,2 +1,2 @@
-1|gatito
-2|peru
+1|Gato
+2|Perro
