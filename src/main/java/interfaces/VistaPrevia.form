@@ -60,7 +60,7 @@
             <Component class="javax.swing.JLabel" name="jLabel10">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgVistaPrevia\gato2.png"/>
+                  <Image iconType="3" name="/imagenes/ImgVistaPrevia/gato2.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -104,7 +104,7 @@
             <Component class="javax.swing.JLabel" name="jLabel4">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgVistaPrevia\imagen3.png"/>
+                  <Image iconType="3" name="/imagenes/ImgVistaPrevia/imagen4.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -119,7 +119,7 @@
                   <Color blue="65" green="3c" red="1e" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgVistaPrevia\imagen2.png"/>
+                  <Image iconType="3" name="/imagenes/ImgVistaPrevia/imagen2.png"/>
                 </Property>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="null"/>
@@ -169,7 +169,7 @@
             <Component class="javax.swing.JLabel" name="jLabel5">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgVistaPrevia\imagen4.png"/>
+                  <Image iconType="3" name="/imagenes/ImgVistaPrevia/imagen4.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -184,7 +184,7 @@
                   <Color blue="65" green="3c" red="1e" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgVistaPrevia\imagen2.png"/>
+                  <Image iconType="3" name="/imagenes/ImgVistaPrevia/imagen2.png"/>
                 </Property>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="null"/>
@@ -202,7 +202,7 @@
             <Component class="javax.swing.JLabel" name="jLabel11">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgVistaPrevia\perro2.png"/>
+                  <Image iconType="3" name="/imagenes/ImgVistaPrevia/perro2.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel11"/>
               </Properties>
@@ -215,7 +215,7 @@
             <Component class="javax.swing.JLabel" name="jLabel1">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgVistaPrevia\imagen1.png"/>
+                  <Image iconType="3" name="/imagenes/ImgVistaPrevia/imagen1.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -265,7 +265,7 @@
                   <Color blue="65" green="3c" red="1e" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgVistaPrevia\imagen5.jpg"/>
+                  <Image iconType="3" name="/imagenes/ImgVistaPrevia/imagen5.jpg"/>
                 </Property>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="null"/>

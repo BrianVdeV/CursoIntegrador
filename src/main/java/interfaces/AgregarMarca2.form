@@ -97,7 +97,7 @@
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgAgregarMarca_Mascota\imagen1-removebg-preview.png"/>
+              <Image iconType="3" name="/imagenes/ImgAgregarMarca_Mascota/imagen1-removebg-preview.png"/>
             </Property>
           </Properties>
           <Constraints>

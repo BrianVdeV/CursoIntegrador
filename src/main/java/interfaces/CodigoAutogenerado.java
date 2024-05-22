@@ -64,7 +64,7 @@ public class CodigoAutogenerado extends javax.swing.JFrame {
         });
         jPanel1.add(btn_Listo_CodigoAutogenerado, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, 120, 30));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgCodigoAutogenerado\\imagen1.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgCodigoAutogenerado/gerente-pub-es-perro-lindo-dibujos-animados_152710-2390-removebg-preview.png"))); // NOI18N
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 140, -1, -1));
 
         jLabel9.setBackground(new java.awt.Color(0, 0, 0));

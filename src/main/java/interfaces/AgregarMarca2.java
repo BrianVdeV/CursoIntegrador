@@ -68,7 +68,7 @@ public class AgregarMarca2 extends javax.swing.JFrame {
         });
         jPanel1.add(btn_Listo_AgregarMarca2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 130, 90, 30));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgAgregarMarca_Mascota\\imagen1-removebg-preview.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgAgregarMarca_Mascota/imagen1-removebg-preview.png"))); // NOI18N
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, 430, 500));
 
         jLabel9.setBackground(new java.awt.Color(0, 0, 0));

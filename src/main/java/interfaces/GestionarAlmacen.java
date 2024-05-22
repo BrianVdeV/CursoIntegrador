@@ -4,6 +4,13 @@
  */
 package interfaces;
 
+import domain.Producto;
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+import service.ProductoService;
+
 /**
  *
  * @author JESSY
@@ -15,9 +22,10 @@ public class GestionarAlmacen extends javax.swing.JFrame {
      */
     public GestionarAlmacen() {
         initComponents();
-        
+
         //Descactivas la opción de ampliar pantalla
         setResizable(false);
+        MostrarDatos(tbl_MostrarProducto_GestionarAlmacen);
     }
 
     /**
@@ -58,10 +66,10 @@ public class GestionarAlmacen extends javax.swing.JFrame {
         jLabel10.setText("© 2024. Creado y diseñado por Peter Son Alcoser");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 650, -1, -1));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgGestionAlmacen\\patitader.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgGestionAlmacen/patitader.png"))); // NOI18N
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 150, -1, 800));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgGestionAlmacen\\patitaizq.png")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgGestionAlmacen/patitaizq.png"))); // NOI18N
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 460, -1, 220));
 
         tbl_MostrarProducto_GestionarAlmacen.setModel(new javax.swing.table.DefaultTableModel(
@@ -128,7 +136,7 @@ public class GestionarAlmacen extends javax.swing.JFrame {
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 150, -1, -1));
 
         btn_CrearProducto_GestionarAlmacen.setFont(new java.awt.Font("Artifakt Element", 1, 12)); // NOI18N
-        btn_CrearProducto_GestionarAlmacen.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgGestionAlmacen\\imagen2.png")); // NOI18N
+        btn_CrearProducto_GestionarAlmacen.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgGestionAlmacen/imagen2.png"))); // NOI18N
         btn_CrearProducto_GestionarAlmacen.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_CrearProducto_GestionarAlmacenActionPerformed(evt);
@@ -137,7 +145,7 @@ public class GestionarAlmacen extends javax.swing.JFrame {
         getContentPane().add(btn_CrearProducto_GestionarAlmacen, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, 140, 40));
 
         btn_EditarProducto_GestionarAlmacen.setFont(new java.awt.Font("Artifakt Element", 1, 12)); // NOI18N
-        btn_EditarProducto_GestionarAlmacen.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgGestionAlmacen\\imagen3.png")); // NOI18N
+        btn_EditarProducto_GestionarAlmacen.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgGestionAlmacen/imagen3.png"))); // NOI18N
         btn_EditarProducto_GestionarAlmacen.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_EditarProducto_GestionarAlmacenActionPerformed(evt);
@@ -147,7 +155,7 @@ public class GestionarAlmacen extends javax.swing.JFrame {
 
         btn_Salir_VistaPrevia.setBackground(new java.awt.Color(30, 60, 101));
         btn_Salir_VistaPrevia.setForeground(new java.awt.Color(30, 60, 101));
-        btn_Salir_VistaPrevia.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgGestionarEmpleado\\imagen5.jpg")); // NOI18N
+        btn_Salir_VistaPrevia.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgVistaPrevia/imagen5.jpg"))); // NOI18N
         btn_Salir_VistaPrevia.setBorder(null);
         btn_Salir_VistaPrevia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -165,13 +173,18 @@ public class GestionarAlmacen extends javax.swing.JFrame {
         cbx_Filtro_GestionarAlmacen.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Código", "Nombre", "Marca", "Mascota", "Stock" }));
         getContentPane().add(cbx_Filtro_GestionarAlmacen, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 20, 170, 30));
 
-        btn_Buscar_GestionarAlmacen.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgGestionAlmacen\\imagen4.png")); // NOI18N
+        btn_Buscar_GestionarAlmacen.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgGestionAlmacen/imagen4.png"))); // NOI18N
+        btn_Buscar_GestionarAlmacen.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_Buscar_GestionarAlmacenActionPerformed(evt);
+            }
+        });
         getContentPane().add(btn_Buscar_GestionarAlmacen, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 80, 80, 30));
 
         txt_TextoFiltro_GestionarAlmacen.setBackground(new java.awt.Color(239, 220, 235));
         getContentPane().add(txt_TextoFiltro_GestionarAlmacen, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 80, 310, 40));
 
-        btn_OrdenarStock_GestionarAlmacen.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgGestionAlmacen\\imagen5.png")); // NOI18N
+        btn_OrdenarStock_GestionarAlmacen.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgGestionAlmacen/imagen5.png"))); // NOI18N
         btn_OrdenarStock_GestionarAlmacen.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_OrdenarStock_GestionarAlmacenActionPerformed(evt);
@@ -179,16 +192,16 @@ public class GestionarAlmacen extends javax.swing.JFrame {
         });
         getContentPane().add(btn_OrdenarStock_GestionarAlmacen, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 80, 150, 40));
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgGestionAlmacen\\cuellito.png")); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgGestionAlmacen/cuellito.png"))); // NOI18N
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 590, 790, 120));
 
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgGestionAlmacen\\cabeza.png")); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgGestionAlmacen/cabeza.png"))); // NOI18N
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, -40, -1, -1));
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 260, 730, 90));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgGestionAlmacen\\imagen1.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgGestionAlmacen/imagen1.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -10, -1, 690));
 
         pack();
@@ -206,18 +219,32 @@ public class GestionarAlmacen extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_OrdenarStock_GestionarAlmacenActionPerformed
 
     private void btn_CrearProducto_GestionarAlmacenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_CrearProducto_GestionarAlmacenActionPerformed
-        
+
         RegistrarProducto rp = new RegistrarProducto();
         rp.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_btn_CrearProducto_GestionarAlmacenActionPerformed
 
     private void btn_EditarProducto_GestionarAlmacenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_EditarProducto_GestionarAlmacenActionPerformed
-        
+
         ModificarProducto mp = new ModificarProducto();
         mp.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_btn_EditarProducto_GestionarAlmacenActionPerformed
+
+    private void btn_Buscar_GestionarAlmacenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Buscar_GestionarAlmacenActionPerformed
+        posicion = Lista.BuscarCodigo(codbuscado);
+          if(posicion==-1){
+              JOptionPane.showMessageDialog(null,
+                      "Codigo buscado no existe...");
+          }else{
+              Empleado emp = Lista.RecuperarEmpleado(posicion);
+              vista.txtCodigo.setText(emp.getCodigo());
+              vista.txtNombre.setText(emp.getNombre());
+              vista.txtCorreo.setText(emp.getCorreo());
+              vista.txtSueldo.setText(String.valueOf(emp.getSueldo()));
+          }
+    }//GEN-LAST:event_btn_Buscar_GestionarAlmacenActionPerformed
 
     /**
      * @param args the command line arguments
@@ -277,4 +304,33 @@ public class GestionarAlmacen extends javax.swing.JFrame {
     private javax.swing.JTable tbl_MostrarProducto_GestionarAlmacen;
     private javax.swing.JTextField txt_TextoFiltro_GestionarAlmacen;
     // End of variables declaration//GEN-END:variables
+
+    static ProductoService productoService = new ProductoService();
+    public void MostrarDatos(JTable tbl) {
+        // Crear un nuevo modelo de tabla cada vez
+        DefaultTableModel tabla = new DefaultTableModel();
+
+        // Definir las columnas de la tabla
+        String[] columnas = {"ID", "Código", "Nombre", "Precio Venta", "Stock", "Marca", "Tipo Mascota"};
+        tabla.setColumnIdentifiers(columnas);
+
+        // Obtener los datos de los productos
+        Producto[] productos = productoService.consultar();
+
+        // Añadir los datos de los productos a la tabla
+        for (Producto producto : productos) {
+            Object[] fila = new Object[7];
+            fila[0] = producto.getIdProducto();
+            fila[1] = producto.getCodigo();
+            fila[2] = producto.getNombre();
+            fila[3] = producto.getPrecioVenta();
+            fila[4] = producto.getStock();
+            fila[5] = producto.getMarc();
+            fila[6] = producto.getTipoMasc();
+            tabla.addRow(fila);
+        }
+
+        // Establecer el modelo de la tabla
+        tbl.setModel(tabla);
+    }
 }

@@ -57,7 +57,7 @@ public class VistaPrevia extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(30, 60, 101));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgVistaPrevia\\gato2.png")); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgVistaPrevia/gato2.png"))); // NOI18N
         jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 330, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Lucida Fax", 0, 18)); // NOI18N
@@ -70,11 +70,11 @@ public class VistaPrevia extends javax.swing.JFrame {
         jLabel7.setText(" Gestionar");
         jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 490, 110, -1));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgVistaPrevia\\imagen3.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgVistaPrevia/imagen4.png"))); // NOI18N
         jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 400, -1, -1));
 
         btn_GestionarEmpleados_VistaPrevia.setBackground(new java.awt.Color(30, 60, 101));
-        btn_GestionarEmpleados_VistaPrevia.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgVistaPrevia\\imagen2.png")); // NOI18N
+        btn_GestionarEmpleados_VistaPrevia.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgVistaPrevia/imagen2.png"))); // NOI18N
         btn_GestionarEmpleados_VistaPrevia.setBorder(null);
         btn_GestionarEmpleados_VistaPrevia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,11 +93,11 @@ public class VistaPrevia extends javax.swing.JFrame {
         jLabel9.setText(" Gestionar");
         jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 340, 100, -1));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgVistaPrevia\\imagen4.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgVistaPrevia/imagen4.png"))); // NOI18N
         jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 250, -1, -1));
 
         btn_GestionarAlmacen_VistaPrevia.setBackground(new java.awt.Color(30, 60, 101));
-        btn_GestionarAlmacen_VistaPrevia.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgVistaPrevia\\imagen2.png")); // NOI18N
+        btn_GestionarAlmacen_VistaPrevia.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgVistaPrevia/imagen2.png"))); // NOI18N
         btn_GestionarAlmacen_VistaPrevia.setBorder(null);
         btn_GestionarAlmacen_VistaPrevia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -106,11 +106,11 @@ public class VistaPrevia extends javax.swing.JFrame {
         });
         jPanel2.add(btn_GestionarAlmacen_VistaPrevia, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 240, 160, 170));
 
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgVistaPrevia\\perro2.png")); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgVistaPrevia/perro2.png"))); // NOI18N
         jLabel11.setText("jLabel11");
         jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 270, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgVistaPrevia\\imagen1.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgVistaPrevia/imagen1.png"))); // NOI18N
         jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 10, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 24)); // NOI18N
@@ -125,7 +125,7 @@ public class VistaPrevia extends javax.swing.JFrame {
 
         btn_Salir_VistaPrevia.setBackground(new java.awt.Color(30, 60, 101));
         btn_Salir_VistaPrevia.setForeground(new java.awt.Color(30, 60, 101));
-        btn_Salir_VistaPrevia.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgVistaPrevia\\imagen5.jpg")); // NOI18N
+        btn_Salir_VistaPrevia.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgVistaPrevia/imagen5.jpg"))); // NOI18N
         btn_Salir_VistaPrevia.setBorder(null);
         btn_Salir_VistaPrevia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

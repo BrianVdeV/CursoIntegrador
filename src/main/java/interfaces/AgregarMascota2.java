@@ -68,7 +68,7 @@ public class AgregarMascota2 extends javax.swing.JFrame {
         });
         jPanel1.add(btn_Listo_AgregarMascota2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 130, 90, 30));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgAgregarMarca_Mascota\\imagen2.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgAgregarMarca_Mascota/imagen2.png"))); // NOI18N
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         jLabel9.setBackground(new java.awt.Color(0, 0, 0));

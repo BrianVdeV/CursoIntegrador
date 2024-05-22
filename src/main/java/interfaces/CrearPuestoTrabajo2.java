@@ -56,6 +56,8 @@ public class CrearPuestoTrabajo2 extends javax.swing.JFrame {
         jLabel2.setText("Descripción de su funcionalidad:");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 120, -1, -1));
         jPanel1.add(txt_PuestoTrabajo_CrearPuesto2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 50, 290, 30));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgCrearPuestoTrabajo/imagen1.png"))); // NOI18N
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, 110, -1, -1));
 
         ta_DescripcionTrabajo_CrearPuesto2.setColumns(5);

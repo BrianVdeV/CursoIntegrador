@@ -4,6 +4,11 @@
  */
 package interfaces;
 
+import domain.Empleado;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+import service.EmpleadoService;
+
 /**
  *
  * @author JESSY
@@ -15,9 +20,10 @@ public class GestionarEmpleado extends javax.swing.JFrame {
      */
     public GestionarEmpleado() {
         initComponents();
-        
+
         //Descactivas la opción de ampliar pantalla
         setResizable(false);
+        MostrarEmpleado(tbl_MostrarEmpleado_GestionarEmpleado);
     }
 
     /**
@@ -59,7 +65,7 @@ public class GestionarEmpleado extends javax.swing.JFrame {
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 190, 120, 20));
 
         btn_RegistrarEmpleado_GestionarEmpleado.setBackground(new java.awt.Color(255, 255, 255));
-        btn_RegistrarEmpleado_GestionarEmpleado.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgGestionarEmpleado\\imagen2.png")); // NOI18N
+        btn_RegistrarEmpleado_GestionarEmpleado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgGestionarEmpleado/imagen2.png"))); // NOI18N
         btn_RegistrarEmpleado_GestionarEmpleado.setBorder(null);
         btn_RegistrarEmpleado_GestionarEmpleado.setBorderPainted(false);
         btn_RegistrarEmpleado_GestionarEmpleado.addActionListener(new java.awt.event.ActionListener() {
@@ -69,7 +75,7 @@ public class GestionarEmpleado extends javax.swing.JFrame {
         });
         jPanel1.add(btn_RegistrarEmpleado_GestionarEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 180, 160, 40));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgGestionarEmpleado\\cat1-removebg-preview.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgGestionarEmpleado/cat1-removebg-preview.png"))); // NOI18N
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 20, 430, 210));
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
@@ -127,7 +133,7 @@ public class GestionarEmpleado extends javax.swing.JFrame {
         jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 50, 100, 20));
 
         btn_ModificarEmpleado_GestionarEmpleado.setBackground(new java.awt.Color(255, 255, 255));
-        btn_ModificarEmpleado_GestionarEmpleado.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgGestionarEmpleado\\imagen2.png")); // NOI18N
+        btn_ModificarEmpleado_GestionarEmpleado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgGestionarEmpleado/imagen2.png"))); // NOI18N
         btn_ModificarEmpleado_GestionarEmpleado.setBorder(null);
         btn_ModificarEmpleado_GestionarEmpleado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -140,7 +146,7 @@ public class GestionarEmpleado extends javax.swing.JFrame {
 
         btn_Salir_GestionarEmpleado.setBackground(new java.awt.Color(30, 60, 101));
         btn_Salir_GestionarEmpleado.setForeground(new java.awt.Color(30, 60, 101));
-        btn_Salir_GestionarEmpleado.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgGestionarEmpleado\\imagen5.jpg")); // NOI18N
+        btn_Salir_GestionarEmpleado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgGestionarEmpleado/imagen5.jpg"))); // NOI18N
         btn_Salir_GestionarEmpleado.setBorder(null);
         btn_Salir_GestionarEmpleado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,7 +160,7 @@ public class GestionarEmpleado extends javax.swing.JFrame {
         jLabel12.setText("REGRESAR");
         jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 90, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgGestionarEmpleado\\imagen1.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgGestionarEmpleado/imagen1.png"))); // NOI18N
         jLabel1.setText("jLabel1");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -50, -1, -1));
 
@@ -172,19 +178,19 @@ public class GestionarEmpleado extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_Salir_GestionarEmpleadoActionPerformed
 
     private void btn_RegistrarEmpleado_GestionarEmpleadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_RegistrarEmpleado_GestionarEmpleadoActionPerformed
-        
+
         RegistrarEmpleado re = new RegistrarEmpleado();
         re.setVisible(true);
         this.setVisible(false);
-        
+
     }//GEN-LAST:event_btn_RegistrarEmpleado_GestionarEmpleadoActionPerformed
 
     private void btn_ModificarEmpleado_GestionarEmpleadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_ModificarEmpleado_GestionarEmpleadoActionPerformed
-       
+
         ModificarEmpleado me = new ModificarEmpleado();
         me.setVisible(true);
         this.setVisible(false);
-        
+
     }//GEN-LAST:event_btn_ModificarEmpleado_GestionarEmpleadoActionPerformed
 
     /**
@@ -237,4 +243,36 @@ public class GestionarEmpleado extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable tbl_MostrarEmpleado_GestionarEmpleado;
     // End of variables declaration//GEN-END:variables
+
+    static EmpleadoService empleadoService = new EmpleadoService();
+
+    public void MostrarEmpleado(JTable tbl) {
+        // Crear un nuevo modelo de tabla cada vez
+        DefaultTableModel tabla = new DefaultTableModel();
+
+        // Definir las columnas de la tabla
+        String[] columnas = {"ID","Código", "Nombre" , "Apellido", "Sexo", "DNI", "Número","Estado"};
+        tabla.setColumnIdentifiers(columnas);
+
+        // Obtener los datos de los productos
+        Empleado[] empleados = empleadoService.consultar();
+
+        // Añadir los datos de los productos a la tabla
+        for (Empleado empleado : empleados) {
+            Object[] fila = new Object[9];
+            fila[0] = empleado.getIdEmpleado();
+            fila[1] = empleado.getCodigo();
+            fila[2] = empleado.getNombre();
+            fila[3] = empleado.getApellido();
+            fila[4] = empleado.getSexo();
+            fila[5] = empleado.getDni();
+            fila[6] = empleado.getNumeroContacto();
+            fila[7] = empleado.getEstado();
+            fila[8] = empleado.getPuestoTrab();
+            tabla.addRow(fila);
+        }
+
+        // Establecer el modelo de la tabla
+        tbl.setModel(tabla);
+    }
 }

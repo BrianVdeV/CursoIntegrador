@@ -63,7 +63,7 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgRegistrarEmpleado\imagen1.png"/>
+              <Image iconType="3" name="/imagenes/ImgRecuperarContrase&#xf1;a/imagen1.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -75,7 +75,7 @@
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgCrearProducto\imagen1.png"/>
+              <Image iconType="3" name="/imagenes/ImgCrearProducto/imagen1.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -402,7 +402,7 @@
               <Color blue="fe" green="fe" red="c5" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgCrearProducto\imagen3.png"/>
+              <Image iconType="3" name="/imagenes/ImgCrearProducto/imagen3.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -414,7 +414,7 @@
         <Component class="javax.swing.JLabel" name="jLabel14">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgCrearProducto\imagen4.png"/>
+              <Image iconType="3" name="/imagenes/ImgCrearProducto/imagen4.png"/>
             </Property>
           </Properties>
           <Constraints>

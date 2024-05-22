@@ -44,7 +44,7 @@
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgVisualizarCuentaRecuperada\imagen1.png"/>
+              <Image iconType="3" name="/imagenes/ImgVisualizarCuentaRecuperada/imagen1.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -56,7 +56,7 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgVisualizarCuentaRecuperada\imagen2.png"/>
+              <Image iconType="3" name="/imagenes/ImgVisualizarCuentaRecuperada/imagen2.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -87,7 +87,7 @@
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgRecuperarContrase&#xf1;a\imagen1.png"/>
+              <Image iconType="3" name="/imagenes/ImgRecuperarContrase&#xf1;a/imagen1.png"/>
             </Property>
           </Properties>
           <Constraints>

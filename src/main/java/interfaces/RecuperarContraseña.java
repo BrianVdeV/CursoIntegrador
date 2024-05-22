@@ -57,7 +57,7 @@ public class RecuperarContraseña extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(30, 49, 99));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgRecuperarContraseña\\imagen1.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgRecuperarContraseña/imagen1.png"))); // NOI18N
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 30, 30));
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
@@ -66,7 +66,7 @@ public class RecuperarContraseña extends javax.swing.JFrame {
         jLabel1.setText("SuperPet");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 140, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgRecuperarContraseña\\imagen2.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgRecuperarContraseña/imagen2.png"))); // NOI18N
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 20, -1, -1));
 
         btn_RegresarLogin_RecuContra.setText("<");
@@ -119,10 +119,10 @@ public class RecuperarContraseña extends javax.swing.JFrame {
         jPanel1.add(btn_Cambiar_RecuContra, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 460, 250, 40));
 
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgRecuperarContraseña\\imagen4.png")); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgRecuperarContraseña/imagen4.png"))); // NOI18N
         jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 530, 140, 20));
 
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgRecuperarContraseña\\imagen4.png")); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgRecuperarContraseña/imagen4.png"))); // NOI18N
         jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 530, 120, 20));
 
         jLabel9.setFont(new java.awt.Font("Palatino Linotype", 0, 8)); // NOI18N

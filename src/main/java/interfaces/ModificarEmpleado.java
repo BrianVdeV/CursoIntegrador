@@ -79,8 +79,6 @@ public class ModificarEmpleado extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(248, 241, 216));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgRegistrarEmpleado\\imagen1.png")); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 30, 30));
 
         jLabel4.setBackground(new java.awt.Color(255, 255, 255));
@@ -110,7 +108,7 @@ public class ModificarEmpleado extends javax.swing.JFrame {
         });
         jPanel1.add(ck_Inactivo_ModificarEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, -1, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgRegistrarEmpleado\\imagen2.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgRegistrarEmpleado/imagen2.png"))); // NOI18N
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, -1, -1));
 
         jPanel1.add(cbx_PuestoTrabajo_ModificarEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 220, 30));
@@ -129,7 +127,7 @@ public class ModificarEmpleado extends javax.swing.JFrame {
         jLabel6.setText("Estado del Empleado:");
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 120, -1, -1));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgRegistrarEmpleado\\imagen3.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgRegistrarEmpleado/imagen3.png"))); // NOI18N
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
 
         jLabel14.setBackground(new java.awt.Color(0, 0, 0));
@@ -211,7 +209,7 @@ public class ModificarEmpleado extends javax.swing.JFrame {
         });
         jPanel2.add(btn_Cancelar_ModificarEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(329, 580, 100, 30));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\JESSY\\OneDrive - Universidad Tecnologica del Peru\\ciclo 7\\integrador 1\\proyecto 1\\SupertPet\\src\\main\\java\\Imagenes\\interfaz\\ImgRegistrarEmpleado\\imagen4.png")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ImgRegistrarEmpleado/imagen4.png"))); // NOI18N
         jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, -1, 600));
 
         txt_Id_ModificarEmpleado.setFont(new java.awt.Font("Microsoft Tai Le", 1, 14)); // NOI18N

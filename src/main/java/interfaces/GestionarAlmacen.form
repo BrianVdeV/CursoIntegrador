@@ -41,7 +41,7 @@
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgGestionAlmacen\patitader.png"/>
+          <Image iconType="3" name="/imagenes/ImgGestionAlmacen/patitader.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -53,7 +53,7 @@
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgGestionAlmacen\patitaizq.png"/>
+          <Image iconType="3" name="/imagenes/ImgGestionAlmacen/patitaizq.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -209,7 +209,7 @@
           <Font name="Artifakt Element" size="12" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgGestionAlmacen\imagen2.png"/>
+          <Image iconType="3" name="/imagenes/ImgGestionAlmacen/imagen2.png"/>
         </Property>
       </Properties>
       <Events>
@@ -227,7 +227,7 @@
           <Font name="Artifakt Element" size="12" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgGestionAlmacen\imagen3.png"/>
+          <Image iconType="3" name="/imagenes/ImgGestionAlmacen/imagen3.png"/>
         </Property>
       </Properties>
       <Events>
@@ -248,7 +248,7 @@
           <Color blue="65" green="3c" red="1e" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgGestionarEmpleado\imagen5.jpg"/>
+          <Image iconType="3" name="/imagenes/ImgVistaPrevia/imagen5.jpg"/>
         </Property>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="null"/>
@@ -306,9 +306,12 @@
     <Component class="javax.swing.JButton" name="btn_Buscar_GestionarAlmacen">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgGestionAlmacen\imagen4.png"/>
+          <Image iconType="3" name="/imagenes/ImgGestionAlmacen/imagen4.png"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_Buscar_GestionarAlmacenActionPerformed"/>
+      </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="540" y="80" width="80" height="30"/>
@@ -330,7 +333,7 @@
     <Component class="javax.swing.JButton" name="btn_OrdenarStock_GestionarAlmacen">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgGestionAlmacen\imagen5.png"/>
+          <Image iconType="3" name="/imagenes/ImgGestionAlmacen/imagen5.png"/>
         </Property>
       </Properties>
       <Events>
@@ -345,7 +348,7 @@
     <Component class="javax.swing.JLabel" name="jLabel8">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgGestionAlmacen\cuellito.png"/>
+          <Image iconType="3" name="/imagenes/ImgGestionAlmacen/cuellito.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -357,7 +360,7 @@
     <Component class="javax.swing.JLabel" name="jLabel9">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgGestionAlmacen\cabeza.png"/>
+          <Image iconType="3" name="/imagenes/ImgGestionAlmacen/cabeza.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -383,7 +386,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\JESSY\OneDrive - Universidad Tecnologica del Peru\ciclo 7\integrador 1\proyecto 1\SupertPet\src\main\java\Imagenes\interfaz\ImgGestionAlmacen\imagen1.png"/>
+          <Image iconType="3" name="/imagenes/ImgGestionAlmacen/imagen1.png"/>
         </Property>
       </Properties>
       <Constraints>
