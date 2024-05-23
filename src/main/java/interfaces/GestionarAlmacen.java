@@ -233,17 +233,7 @@ public class GestionarAlmacen extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_EditarProducto_GestionarAlmacenActionPerformed
 
     private void btn_Buscar_GestionarAlmacenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Buscar_GestionarAlmacenActionPerformed
-        posicion = Lista.BuscarCodigo(codbuscado);
-          if(posicion==-1){
-              JOptionPane.showMessageDialog(null,
-                      "Codigo buscado no existe...");
-          }else{
-              Empleado emp = Lista.RecuperarEmpleado(posicion);
-              vista.txtCodigo.setText(emp.getCodigo());
-              vista.txtNombre.setText(emp.getNombre());
-              vista.txtCorreo.setText(emp.getCorreo());
-              vista.txtSueldo.setText(String.valueOf(emp.getSueldo()));
-          }
+
     }//GEN-LAST:event_btn_Buscar_GestionarAlmacenActionPerformed
 
     /**
